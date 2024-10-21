@@ -1,4 +1,7 @@
 #streamlit run 4-streamlit.py
+# git add 
+# git commit -m ''
+#git push -u origin main --> auto updates after pushing to github
 import streamlit as st
 import pandas
 
@@ -16,3 +19,4 @@ st.write(f'''Hello guys, today I will be showcasing my first Streamlit web app
          Hope you enjoy!''')
 
 st.write(df)
+st.line_chart(df)
