@@ -20,3 +20,7 @@ st.write(f'''Hello guys, today I will be showcasing my first Streamlit web app
 
 st.write(df)
 st.line_chart(df)
+st.area_chart(df)
+
+myslider = st.slider('Celsius')
+st.write(myslider, 'in Fahrengheit is', myslider * (9/5) + 32)
